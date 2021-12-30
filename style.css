@@ -1,0 +1,81 @@
+body {
+  max-width: 500px;
+  margin: auto;
+  background-color: #ecf9f2;
+}
+.navTop {
+  background-color: #2d8659;
+  color: white;
+  font-size: 1em;
+}
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.2em;
+}
+h1 {
+  font-family: "Trebuchet MS", Helvetics, sans-werif;
+  font-size: 2em;
+}
+p.important {
+  font-size: 1.5em;
+}
+.typewriter {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2em;
+}
+.headline {
+  font-size: 3em;
+  font-weight: 900;
+}
+img.own-line {
+  display: block;
+}
+.smaller-image {
+  width: 100px;
+}
+.medium-image {
+  width: 250px;
+}
+.border {
+  border-color: lightBlue;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 25px;
+}
+.form-background {
+  background-color: #66cc99;
+  display: grid;
+  text-align: center;
+}
+.newspaper-color {
+  background-color: #fbfbf8;
+}
+.menu li a {
+  text-decoration: none;
+  margin-right: .5em;
+  color: #ffffff;
+  transition-duration: 0.5s;
+}
+.menu li a:hoover {
+  background-color: #83afaf;
+  color: white;
+}
+
+li {
+  list-style-type: none;
+
+  margin: 0;
+  padding: 10px;
+}
+.menu {
+  display: flex;
+  justify-content: flex-start;
+}
+.divItems {
+  text-align:center;
+  background-color: #c6ecd9;
+}
+.dogFacts {
+  text-align: center;
+  background-color: #66cc99;
+}

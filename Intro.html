@@ -1,0 +1,89 @@
+<!-- html for phone app: Dog Parktopia Check in -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <metacharset="utf-8">
+  <title>Dog Park Check In</title>
+  <link rel="stylesheet" href="style.css"></link>
+  <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+  <header>
+  <center><h1 id="top">Welcome to the Doggie Park Check-in.</h1>
+  <p><i>Where dogs come to play with friends</i></p></center><br>
+  </header>
+  <hr>
+<nav class="navTop">
+  <ul class="menu">
+    <li><a href="#doggie-news">Jump to news</a></li>
+    <li><a href="#weather">Jump to weather</a></li>
+    <li><a href="https://www.oneofakindpets.com/site/adoptable-pets-adoptable-animals/view-adoptable-pets/" target="blank">Need a doggie friend</a></li>
+    <li><a href="http://emmettmagic.com/" target="blank">Need Magic?</a></li>
+    <li><a href="#contacts">Contact</a></li>
+  </ul>  
+</nav>
+  <hr>
+  
+  <h2>Why play alone? Let your friends know you're here!  Check in...
+      We automatically send a text to let other dogs know you're here.</h2>
+  <br><br>
+  <form class="form-background">
+    Dog's Name:
+    <input type="button" class= "greetName" onclick="greeting()" value = "Enter here">
+    <br>
+    Breed: 
+    <input type="text" required placeholder="breed">
+    <br>
+    <input type="text" placeholder="dog photo URL">
+    <br><br>
+    <button type="submit">Check-In</button>
+  </form>
+  <br>
+  <a href="https://dogtime.com/dog-breeds/goldendoodle#/slide/1" target="blank"><img class="smaller-image border" src="jasper.jpg" alt="Photo of dog" alt="photo of golden doodle laying down">
+  Breed info</a>
+  <br>
+  <hr>
+   <div class="dogFacts">
+    <p class="typewriter headline" id="doggie-news">Daily Doggie Fact</p>
+    <center>
+    <table width=100% border=1>
+      <tr>
+        <th class="typewriter">Dogs born in the world 2021</th>
+        <th class="typewriter">Dogs born in the United States 2021</hh>
+      </tr>
+       <tr>
+        <td><strong>900,000,000</strong></td>
+        <td><strong>69,000,000</stong></td>
+       </tr>
+    </table>
+    </center>
+     <br>
+   </div>
+  <div class="newspaper-color">
+    <div class="divItems">
+     <p class="typewriter headline"><strong>Daily Doggie Quote</strong></p>
+<!-- quote web https://www.freecodecamp.org/news/creating-a-bare-bones-quote-generator-with-javascript-and-html-for-absolute-beginners-5264e1725f08/ -->
+     <div id="quoteDisplay">
+      <hr>
+      <p>Click the button for your quote of the day</p>
+      <input type="button" onclick="quoteGen()" value="Random Quote">
+      </div> 
+    </div> 
+  <hr>
+  <br>
+  <div class="divItems">
+    <p class="typewriter headline"><a id="weather"><strong>Today's Weather</strong></a></p>
+    <center><script src="https://apps.elfsight.com/p/platform.js" defer></script>
+  <div class="elfsight-app-e5e63e83-4c9f-4b2e-9e4c-4295ce872101"></div></center>
+  </div>
+  <br>
+  <center><span style="font-size: 25px;">&#8657</span><a href="#Top">Back to top</a><span style="font-size: 25px;">&#8657</span></center>
+  <hr>
+  <hr>
+  <footer id="contacts"><center><p>Pennington Programming</p>
+  <p>egpennington@hotmail.com</p>
+  <a href="https://egpennington.github.io/personal-projects-page/">Our Projects</a></center>
+  </footer>
+</body>
+</html>
